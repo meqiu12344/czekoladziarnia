@@ -35,23 +35,23 @@ export default function Menu() {
   ];
 
   return (
-    <section id="menu" className="py-32 lg:py-40 bg-white relative overflow-hidden">
+    <section id="menu" className="py-32 lg:py-40 bg-gradient-to-b from-amber-900 to-amber-950 relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-[0.03]">
+      <div className="absolute inset-0 opacity-[0.05]">
         <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
         }}></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         <div className="text-center mb-24 flex flex-col items-center space-y-6">
-          <span className="inline-block px-4 py-2 bg-amber-100 text-amber-900 rounded-full text-sm font-semibold mb-4">
+          <span className="inline-block px-4 py-2 bg-amber-800 text-amber-100 rounded-full text-sm font-semibold mb-4">
             Nasze Specjały
           </span>
-          <h2 className="font-playfair text-4xl lg:text-6xl font-bold text-stone-900 mb-6">
+          <h2 className="font-playfair text-4xl lg:text-6xl font-bold text-amber-50 mb-6">
             Menu
           </h2>
-          <p className="text-xl text-stone-600 max-w-2xl mx-auto text-center">
+          <p className="text-xl text-amber-100 max-w-2xl mx-auto text-center">
             Odkryj naszą wyjątkową ofertę czekoladowych specjałów
           </p>
         </div>
@@ -69,27 +69,27 @@ export default function Menu() {
             <a
               key={section.category}
               href={`/gallery?category=${galleryCategory}`}
-              className="group relative bg-gradient-to-br from-stone-50 to-white rounded-3xl p-10 shadow-xl shadow-stone-200/50 hover:shadow-2xl hover:shadow-amber-200/40 transition-all duration-500 border border-stone-100 hover:border-amber-200 hover:-translate-y-2 overflow-hidden cursor-pointer"
+              className="group relative bg-gradient-to-br from-amber-900 to-amber-800 rounded-3xl p-10 shadow-xl shadow-black/50 hover:shadow-2xl hover:shadow-amber-600/40 transition-all duration-500 border border-amber-700 hover:border-amber-500 hover:-translate-y-2 overflow-hidden cursor-pointer"
               style={{ animationDelay: `${idx * 100}ms` }}
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-50/50 to-orange-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-800/50 to-amber-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
               <div className="flex flex-col items-center text-center mb-8 gap-3">
                 <div className="text-4xl group-hover:scale-110 transition-transform duration-300">{section.icon}</div>
-                <h3 className="font-playfair text-2xl font-bold text-stone-900">
+                <h3 className="font-playfair text-2xl font-bold text-amber-50">
                   {section.category}
                 </h3>
               </div>
               <div className="space-y-6">
                 {section.items.map((item) => (
-                  <div key={item.name} className="group/item pb-4 border-b border-stone-100 last:border-0 last:pb-0 hover:bg-amber-50/30 -mx-2 px-2 rounded-lg transition-all duration-300">
+                  <div key={item.name} className="group/item pb-4 border-b border-amber-700 last:border-0 last:pb-0 hover:bg-amber-800/30 -mx-2 px-2 rounded-lg transition-all duration-300">
                     <div className="flex justify-between items-start mb-2 gap-2">
-                      <h4 className="font-semibold text-stone-900 group-hover/item:text-amber-900 transition-colors">{item.name}</h4>
-                      <span className="text-amber-900 font-bold whitespace-nowrap text-sm bg-amber-100 px-3 py-1 rounded-full shadow-sm">
+                      <h4 className="font-semibold text-amber-50 group-hover/item:text-amber-200 transition-colors">{item.name}</h4>
+                      <span className="text-amber-900 font-bold whitespace-nowrap text-sm bg-amber-300 px-3 py-1 rounded-full shadow-sm">
                         {item.price}
                       </span>
                     </div>
-                    <p className="text-sm text-stone-600 leading-relaxed">{item.description}</p>
+                    <p className="text-sm text-amber-100 leading-relaxed">{item.description}</p>
                   </div>
                 ))}
               </div>

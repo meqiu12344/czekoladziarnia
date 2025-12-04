@@ -1,28 +1,28 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-32 lg:py-40 bg-white relative overflow-hidden">
+    <section id="contact" className="py-32 lg:py-40 bg-gradient-to-br from-amber-950 via-amber-900 to-amber-950 relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-orange-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-amber-950/50 via-amber-900/50 to-amber-950/50"></div>
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         <div className="text-center mb-24 flex flex-col items-center space-y-6">
-          <span className="inline-block px-4 py-2 bg-amber-100 text-amber-900 rounded-full text-sm font-semibold mb-4">
+          <span className="inline-block px-4 py-2 bg-amber-900/60 text-amber-100 rounded-full text-sm font-semibold mb-4">
             Skontaktuj się z nami
           </span>
-          <h2 className="font-playfair text-4xl lg:text-6xl font-bold text-stone-900 mb-6">
+          <h2 className="font-playfair text-4xl lg:text-6xl font-bold text-amber-50 mb-6">
             Odwiedź nas
           </h2>
-          <p className="text-xl text-stone-600 max-w-2xl mx-auto text-center">
+          <p className="text-xl text-amber-100 max-w-2xl mx-auto text-center">
             Zanurz się w świecie czekolady w sercu Wrocławia
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-8">
-            <div className="group relative bg-white p-8 rounded-3xl shadow-xl shadow-stone-200/50 hover:shadow-2xl hover:shadow-amber-200/40 transition-all duration-500 border border-stone-100 hover:border-amber-200 hover:-translate-y-1 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-50/50 to-orange-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="group relative bg-amber-900/40 p-8 rounded-3xl shadow-xl shadow-amber-900/50 hover:shadow-2xl hover:shadow-amber-800/60 transition-all duration-500 border border-amber-800/50 hover:border-amber-700 hover:-translate-y-1 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-800/30 to-amber-900/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="flex items-start gap-6 relative">
-                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-amber-700 to-amber-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
                   <svg
                     className="w-7 h-7 text-white"
                     fill="none"
@@ -44,8 +44,8 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl text-stone-900 mb-2">Adres</h3>
-                  <p className="text-stone-600 leading-relaxed">
+                  <h3 className="font-bold text-xl text-amber-50 mb-2">Adres</h3>
+                  <p className="text-amber-100 leading-relaxed">
                     Rynek<br />
                     Wrocław, Polska
                   </p>
@@ -53,10 +53,10 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="group relative bg-white p-8 rounded-3xl shadow-xl shadow-stone-200/50 hover:shadow-2xl hover:shadow-amber-200/40 transition-all duration-500 border border-stone-100 hover:border-amber-200 hover:-translate-y-1 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-50/50 to-orange-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="group relative bg-amber-900/40 p-8 rounded-3xl shadow-xl shadow-amber-900/50 hover:shadow-2xl hover:shadow-amber-800/60 transition-all duration-500 border border-amber-800/50 hover:border-amber-700 hover:-translate-y-1 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-800/30 to-amber-900/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="flex items-start gap-6 relative">
-                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-amber-700 to-amber-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
                   <svg
                     className="w-7 h-7 text-white"
                     fill="none"
@@ -72,10 +72,10 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl text-stone-900 mb-2">
+                  <h3 className="font-bold text-xl text-amber-50 mb-2">
                     Godziny otwarcia
                   </h3>
-                  <div className="text-stone-600 space-y-2">
+                  <div className="text-amber-100 space-y-2">
                     <div className="flex justify-between gap-8">
                       <span className="font-medium">Pn - Pt</span>
                       <span>10:00 - 20:00</span>
@@ -89,10 +89,10 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="group relative bg-white p-8 rounded-3xl shadow-xl shadow-stone-200/50 hover:shadow-2xl hover:shadow-amber-200/40 transition-all duration-500 border border-stone-100 hover:border-amber-200 hover:-translate-y-1 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-50/50 to-orange-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="group relative bg-amber-900/40 p-8 rounded-3xl shadow-xl shadow-amber-900/50 hover:shadow-2xl hover:shadow-amber-800/60 transition-all duration-500 border border-amber-800/50 hover:border-amber-700 hover:-translate-y-1 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-800/30 to-amber-900/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="flex items-start gap-6 relative">
-                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-amber-700 to-amber-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
                   <svg
                     className="w-7 h-7 text-white"
                     fill="none"
@@ -108,8 +108,8 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-bold text-xl text-stone-900 mb-2">Kontakt</h3>
-                  <div className="text-stone-600 space-y-1">
+                  <h3 className="font-bold text-xl text-amber-50 mb-2">Kontakt</h3>
+                  <div className="text-amber-100 space-y-1">
                     <p className="break-all">info@czekoladziarnia-wroclaw.pl</p>
                     <p>+48 123 456 789</p>
                   </div>
@@ -149,7 +149,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl shadow-xl shadow-stone-200/50 overflow-hidden h-[600px] border border-stone-100 sticky top-24 hover:shadow-2xl hover:shadow-amber-200/30 transition-all duration-500">
+          <div className="bg-amber-900/40 rounded-3xl shadow-xl shadow-amber-900/50 overflow-hidden h-[600px] border border-amber-800/50 sticky top-24 hover:shadow-2xl hover:shadow-amber-800/60 transition-all duration-500">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.6424584950436!2d17.031645315745805!3d51.10994897957106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc27f1e0a8c2d%3A0x3e6e8c67655e7e01!2sRynek%2C%20Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1234567890123"
               width="100%"

@@ -41,20 +41,20 @@ export default function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="py-32 lg:py-40 bg-gradient-to-b from-stone-50 to-white relative overflow-hidden">
+    <section id="gallery" className="py-32 lg:py-40 bg-gradient-to-b from-amber-900 to-amber-950 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-amber-200/20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-orange-200/20 rounded-full blur-3xl"></div>
+      <div className="absolute top-20 left-10 w-72 h-72 bg-amber-700/20 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-amber-800/20 rounded-full blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         <div className="text-center mb-24 flex flex-col items-center space-y-6">
-          <span className="inline-block px-4 py-2 bg-amber-100 text-amber-900 rounded-full text-sm font-semibold mb-4">
+          <span className="inline-block px-4 py-2 bg-amber-800 text-amber-100 rounded-full text-sm font-semibold mb-4">
             Nasze Kreacje
           </span>
-          <h2 className="font-playfair text-4xl lg:text-6xl font-bold text-stone-900 mb-6">
+          <h2 className="font-playfair text-4xl lg:text-6xl font-bold text-amber-50 mb-6">
             Galeria
           </h2>
-          <p className="text-xl text-stone-600 max-w-2xl mx-auto text-center">
+          <p className="text-xl text-amber-100 max-w-2xl mx-auto text-center">
             Zobacz, jak wyglądają nasze czekoladowe arcydzieła
           </p>
         </div>
@@ -78,14 +78,14 @@ export default function Gallery() {
         </div>
 
         <div className="text-center flex flex-col items-center">
-          <div className="inline-block bg-white rounded-2xl shadow-xl shadow-stone-200/50 p-8 max-w-2xl">
-            <p className="text-stone-600 text-lg mb-6">
+          <div className="inline-block bg-amber-900 rounded-2xl shadow-xl shadow-black/50 p-8 max-w-2xl">
+            <p className="text-amber-100 text-lg mb-6">
               Przejrzyj pełną galerię naszych produktów z dodatkowymi zdjęciami i opisami.
               Każdy dzień tworzymy świeże, wyjątkowe kompozycje.
             </p>
             <a
               href="/gallery"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-900 to-orange-900 text-white rounded-full hover:shadow-xl hover:shadow-amber-900/30 transition-all duration-300 font-semibold hover:scale-105"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-700 to-amber-600 text-white rounded-full hover:shadow-xl hover:shadow-amber-600/40 transition-all duration-300 font-semibold hover:scale-105"
             >
               Otwórz pełną galerię
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
