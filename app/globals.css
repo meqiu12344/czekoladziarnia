@@ -124,3 +124,15 @@ body {
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* Performance optimizations */
+section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

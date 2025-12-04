@@ -9,6 +9,13 @@ export default function GalleryPage() {
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
 
   useEffect(() => {
+    // Set page metadata dynamically
+    document.title = 'Galeria Produktów | Czekoladziarnia Wrocław';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Przejrzyj pełną galerię naszych czekoladowych produktów - praliny, gorąca czekolada i desery. Każdy produkt zrobiony z miłością w naszej czekoladziarni we Wrocławiu.');
+    }
+    
     // Check URL params
     const params = new URLSearchParams(window.location.search);
     const category = params.get('category');
@@ -209,8 +216,10 @@ export default function GalleryPage() {
                   {/* Image */}
                   <img
                     src={image.image}
-                    alt={image.title}
+                    alt={`${image.title} - Produkt Czekoladziarni Wrocław`}
                     className="w-full h-full object-cover"
+                    loading={index < 4 ? 'eager' : 'lazy'}
+                    decoding={index < 4 ? 'auto' : 'async'}
                   />
                 </div>
               );
@@ -233,7 +242,7 @@ export default function GalleryPage() {
             {/* Image */}
             <img
               src={images[selectedImageIndex].image}
-              alt={images[selectedImageIndex].title}
+              alt={`${images[selectedImageIndex].title} - Powiększony widok produktu Czekoladziarni Wrocław`}
               className="max-w-full max-h-full object-contain rounded-xl"
             />
 

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 
@@ -14,6 +14,13 @@ const inter = Inter({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+};
+
 export const metadata: Metadata = {
   title: "Czekoladziarnia Wrocław | Najlepsza Czekolada we Wrocławiu",
   description: "Czekoladziarnia Wrocław - odkryj wyjątkowy smak czekolady rzemieślniczej. Ręcznie robione praliny, gorąca czekolada i desery czekoladowe. Odwiedź nas we Wrocławiu!",
@@ -24,10 +31,20 @@ export const metadata: Metadata = {
     description: "Odkryj wyjątkowy smak czekolady rzemieślniczej we Wrocławiu",
     type: "website",
     locale: "pl_PL",
+    url: "https://czekoladziarnia-wroclaw.pl",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1599599810694-b5ac4dd64372?w=1200&h=630&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "Czekoladziarnia Wrocław - praliny czekoladowe",
+      }
+    ]
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
   },
 };
 

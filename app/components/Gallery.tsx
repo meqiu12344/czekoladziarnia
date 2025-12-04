@@ -68,8 +68,10 @@ export default function Gallery() {
             >
               <img
                 src={image.image}
-                alt={image.title}
+                alt={`${image.title} - Czekoladziarnia Wrocław`}
                 className="w-full h-full object-cover"
+                loading={index < 3 ? 'eager' : 'lazy'}
+                decoding={index < 3 ? 'auto' : 'async'}
               />
             </div>
           ))}
