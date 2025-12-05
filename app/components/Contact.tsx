@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-32 lg:py-40 bg-gradient-to-br from-amber-950 via-amber-900 to-amber-950 relative overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-amber-950/50 via-amber-900/50 to-amber-950/50"></div>
+    <section id="contact" className="py-32 lg:py-40 relative overflow-hidden">
+      {/* Background - transparent to show body gradient */}
+      <div className="absolute inset-0"></div>
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         <div className="text-center mb-24 flex flex-col items-center space-y-6">

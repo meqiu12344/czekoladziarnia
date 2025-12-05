@@ -26,12 +26,13 @@ html {
 
 body {
   font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
-  background: var(--color-bg);
+  background: linear-gradient(to bottom, #3f2817, #2d1b10, #1a0f08);
   color: var(--color-text);
   overflow-x: hidden;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 .font-playfair {
@@ -133,6 +134,5 @@ section {
 
 img {
   max-width: 100%;
-  height: auto;
   display: block;
 }

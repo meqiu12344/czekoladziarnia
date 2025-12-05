@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="relative bg-gradient-to-br from-amber-950 via-amber-900 to-orange-950 text-white overflow-hidden">
+    <footer className="relative bg-gradient-to-b from-amber-900/80 to-amber-950 text-white overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5 animate-[shimmer_20s_linear_infinite]">
         <div className="absolute inset-0" style={{

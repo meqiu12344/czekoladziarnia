@@ -65,6 +65,12 @@ export default function GalleryPage() {
     ],
     GorąCzekolada: [
       {
+        title: 'Czekolada marshmallow',
+        gradient: 'from-orange-400 via-amber-500 to-orange-600',
+        emoji: '🍨',
+        image: '/images/choco/5.webp',
+      },
+      {
         title: 'Gorąca czekolada',
         gradient: 'from-orange-500 via-amber-600 to-amber-700',
         emoji: '☕',
@@ -88,61 +94,37 @@ export default function GalleryPage() {
         emoji: '👑',
         image: '/images/choco/4.webp',
       },
-      {
-        title: 'Czekolada marshmallow',
-        gradient: 'from-orange-400 via-amber-500 to-orange-600',
-        emoji: '🍨',
-        image: '/images/choco/5.webp',
-      },
     ],
     Desery: [
       {
         title: 'Desery czekoladowe',
         gradient: 'from-amber-600 via-orange-600 to-amber-800',
         emoji: '🍰',
-        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=600&fit=crop',
+        image: '/images/desers/1.jpg',
       },
       {
         title: 'Torty czekoladowe',
         gradient: 'from-orange-600 via-amber-700 to-orange-800',
         emoji: '🎂',
-        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop&q=80',
+        image: '/images/desers/2.jpg',
       },
       {
         title: 'Brownies',
         gradient: 'from-amber-700 via-orange-700 to-amber-900',
         emoji: '🧁',
-        image: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&h=400&fit=crop',
+        image: '/images/desers/3.webp',
       },
       {
         title: 'Tarty czekoladowe',
         gradient: 'from-orange-700 via-amber-700 to-orange-800',
         emoji: '🥧',
-        image: 'https://images.unsplash.com/photo-1535920527894-b86f42ec4127?w=400&h=400&fit=crop',
+        image: '/images/desers/4.jpg',
       },
       {
         title: 'Lody czekoladowe',
         gradient: 'from-amber-500 via-orange-500 to-amber-600',
         emoji: '🍦',
-        image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=400&fit=crop',
-      },
-      {
-        title: 'Fondue czekoladowe',
-        gradient: 'from-orange-600 via-amber-600 to-orange-700',
-        emoji: '🍡',
-        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop&q=85',
-      },
-      {
-        title: 'Musy czekoladowe',
-        gradient: 'from-amber-600 via-orange-600 to-amber-700',
-        emoji: '☁️',
-        image: 'https://images.unsplash.com/photo-1508737313454-38aa60eda238?w=400&h=400&fit=crop',
-      },
-      {
-        title: 'Desery premium',
-        gradient: 'from-orange-700 via-amber-800 to-orange-900',
-        emoji: '👑',
-        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop&q=90',
+        image: '/images/desers/5.webp',
       },
     ],
   };
@@ -204,8 +186,8 @@ export default function GalleryPage() {
               // Na dużych ekranach: pierwsze zdjęcie 2x2, reszta 1x1
               // Na mniejszych ekranach: wszystkie 1x1
               const isFirst = index === 0;
-              const colSpan = isFirst ? 'hidden lg:col-span-2' : 'col-span-1';
-              const rowSpan = isFirst ? 'hidden lg:row-span-2' : 'row-span-1';
+              const colSpan = isFirst ? 'lg:col-span-2' : 'col-span-1';
+              const rowSpan = isFirst ? 'lg:row-span-2' : 'row-span-1';
 
               return (
                 <div

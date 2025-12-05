@@ -35,7 +35,10 @@ export default function Menu() {
   ];
 
   return (
-    <section id="menu" className="py-32 lg:py-40 bg-gradient-to-b from-amber-900 to-amber-950 relative overflow-hidden">
+    <section id="menu" className="py-32 lg:py-40 relative overflow-hidden">
+      {/* Semi-transparent overlay for better contrast with pattern */}
+      <div className="absolute inset-0 bg-gradient-to-b from-amber-950/40 to-amber-900/30"></div>
+      
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-[0.05]">
         <div className="absolute inset-0" style={{

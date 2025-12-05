@@ -41,7 +41,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="py-32 lg:py-40 bg-gradient-to-b from-amber-900 to-amber-950 relative overflow-hidden">
+    <section id="gallery" className="py-32 lg:py-40 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-amber-700/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-amber-800/20 rounded-full blur-3xl"></div>

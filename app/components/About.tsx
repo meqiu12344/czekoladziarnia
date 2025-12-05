@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="py-32 lg:py-40 bg-gradient-to-b from-amber-950 via-amber-900 to-amber-950 relative overflow-hidden">
+    <section id="about" className="py-32 lg:py-40 relative overflow-hidden">
       {/* Background Decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-amber-800/20 rounded-full blur-3xl animate-[float_15s_ease-in-out_infinite]"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-amber-700/20 rounded-full blur-3xl animate-[float_20s_ease-in-out_infinite_2s]"></div>
