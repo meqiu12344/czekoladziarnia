@@ -43,14 +43,14 @@ export default function About() {
               <div className="group relative bg-amber-900 p-8 rounded-3xl shadow-lg shadow-black/50 hover:shadow-2xl hover:shadow-amber-600/40 transition-all duration-500 hover:-translate-y-3 cursor-pointer overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-800 to-amber-900 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative text-center lg:text-left">
-                  <div className="text-5xl font-bold bg-gradient-to-br from-amber-300 to-amber-200 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-500">10+</div>
+                  <div className="text-4xl font-bold bg-gradient-to-br from-amber-300 to-amber-200 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-500">10+</div>
                   <div className="text-amber-100 font-medium text-sm">Lat doświadczenia</div>
                 </div>
               </div>
               <div className="group relative bg-amber-900 p-8 rounded-3xl shadow-lg shadow-black/50 hover:shadow-2xl hover:shadow-amber-600/40 transition-all duration-500 hover:-translate-y-3 cursor-pointer overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-800 to-amber-900 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative text-center lg:text-left">
-                  <div className="text-5xl font-bold bg-gradient-to-br from-amber-300 to-amber-200 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-500">100%</div>
+                  <div className="text-4xl font-bold bg-gradient-to-br from-amber-300 to-amber-200 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-500">100%</div>
                   <div className="text-amber-100 font-medium text-sm">Naturalne składniki</div>
                 </div>
               </div>
@@ -59,14 +59,14 @@ export default function About() {
               <div className="group relative bg-amber-900 p-8 rounded-3xl shadow-lg shadow-black/50 hover:shadow-2xl hover:shadow-amber-600/40 transition-all duration-500 hover:-translate-y-3 cursor-pointer overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-800 to-amber-900 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative text-center lg:text-left">
-                  <div className="text-5xl font-bold bg-gradient-to-br from-amber-300 to-amber-200 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-500">50+</div>
+                  <div className="text-4xl font-bold bg-gradient-to-br from-amber-300 to-amber-200 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-500">50+</div>
                   <div className="text-amber-100 font-medium text-sm">Rodzajów czekolady</div>
                 </div>
               </div>
               <div className="group relative bg-amber-900 p-8 rounded-3xl shadow-lg shadow-black/50 hover:shadow-2xl hover:shadow-amber-600/40 transition-all duration-500 hover:-translate-y-3 cursor-pointer overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-800 to-amber-900 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative text-center lg:text-left">
-                  <div className="text-5xl mb-3 group-hover:scale-110 transition-transform duration-500">❤️</div>
+                  <div className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-500">❤️</div>
                   <div className="text-amber-100 font-medium text-sm">Robione z pasją</div>
                 </div>
               </div>
