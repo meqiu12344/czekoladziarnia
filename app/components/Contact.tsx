@@ -110,7 +110,7 @@ export default function Contact() {
                 <div className="flex-1">
                   <h3 className="font-bold text-xl text-amber-50 mb-2">Kontakt</h3>
                   <div className="text-amber-100 space-y-1">
-                    <p className="break-all">info@czekoladziarnia-wroclaw.pl</p>
+                    <p className="break-all">info@twoja-czekoladziarnia.pl</p>
                     <p>+48 123 456 789</p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export default function Contact() {
 
             <div className="flex flex-col sm:flex-row gap-6">
               <a
-                href="https://www.facebook.com/CzekoladziarniaWroclaw"
+                href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 group relative bg-gradient-to-r from-amber-900 to-orange-900 text-white py-5 rounded-2xl text-center hover:shadow-2xl hover:shadow-amber-900/40 transition-all duration-500 font-semibold hover:scale-105 overflow-hidden flex items-center justify-center"

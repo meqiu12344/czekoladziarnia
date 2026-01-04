@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div className="space-y-4">
             <h3 className="font-playfair text-3xl font-bold mb-4">
-              Czekoladziarnia<br />Wrocław
+              Twoja<br />Czekoladziarnia
             </h3>
             <p className="text-amber-100/90 leading-relaxed">
               Odkryj wyjątkowy smak prawdziwej czekolady rzemieślniczej w sercu Wrocławia.
@@ -85,7 +85,7 @@ export default function Footer() {
                 <svg className="w-5 h-5 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span className="break-all">info@czekoladziarnia-wroclaw.pl</span>
+                <span className="break-all">info@twoja-czekoladziarnia.pl</span>
               </li>
             </ul>
           </div>
@@ -94,7 +94,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-amber-100/70 text-sm">
             <p>
-              &copy; {new Date().getFullYear()} Czekoladziarnia Wrocław. Wszelkie prawa zastrzeżone.
+              &copy; {new Date().getFullYear()} Twoja Czekoladziarnia. Wszelkie prawa zastrzeżone.
             </p>
             <p className="flex items-center gap-2">
               Stworzone z <span className="text-red-400">❤️</span> we Wrocławiu

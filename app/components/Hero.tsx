@@ -42,11 +42,11 @@ export default function Hero() {
 
           <h1 className="font-playfair text-5xl sm:text-6xl lg:text-8xl font-bold text-amber-50 leading-tight">
             <span className="inline-block animate-[fadeInUp_0.8s_ease-out]">
-              Czekoladziarnia
+              Twoja
             </span>
             <br />
             <span className="inline-block animate-[fadeInUp_0.8s_ease-out_0.2s] bg-gradient-to-r from-amber-200 via-amber-100 to-amber-300 bg-clip-text text-transparent">
-              Wrocław
+              Czekoladziarnia
             </span>
           </h1>
 

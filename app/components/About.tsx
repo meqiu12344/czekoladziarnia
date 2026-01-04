@@ -20,7 +20,7 @@ export default function About() {
             
             <div className="space-y-6 text-amber-100 text-lg leading-relaxed">
               <p>
-                Witamy w Czekoladziarni Wrocław – miejscu, gdzie pasja do czekolady 
+                Witamy w Czekoladziarni – miejscu, gdzie pasja do czekolady 
                 spotyka się z tradycyjnym rzemiosłem. Od lat tworzymy wyjątkowe 
                 czekoladowe kompozycje, które zachwycają nawet najbardziej wymagających 
                 smakoszy.
